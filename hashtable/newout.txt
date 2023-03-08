@@ -1,0 +1,24 @@
+777, Ride the Lightning, Metallica, 1984
+888, ...And Justice for All, Metallica, 1988
+149, Let It Bleed, The Rolling Stones, 1969
+187, Appetite for Destruction, Guns N' Roses, 1987
+669, Doggystyle, Snoop Dogg, 1993
+448, Physical Graffiti, Led Zeppelin, 1975
+227, Ready to Die, The Notorious B.I.G., 1994
+339, The Second, Steppenwolf, 1968
+710, Cosmo's Factory, Creedence Clearwater Revival, 1970
+971, The Queen Is Dead, The Smiths, 1986
+342, News of the World, Queen, 1977
+421, Disraeli Gears, Cream, 1967
+461, High Voltage, AC/DC, 1975
+313, Nevermind, Nirvana, 1991
+721, Dr. Feelgood, Motley Crue, 1989
+247, Paranoid, Black Sabbath, 1970
+100, Led Zeppelin IV, Led Zeppelin, 1971
+211, Abbey Road, The Beatles, 1969
+252, Are You Experienced, The Jimi Hendrix Experience, 1967
+919, The Dark Side of the Moon, Pink Floyd, 1973
+551, Rodeo, Travis Scott, 2015
+367, My Beautiful Dark Twisted Fantasy, Kanye West, 2010
+553, The Joker, Steve Miller Band, 1973
+

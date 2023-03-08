@@ -1,0 +1,56 @@
+Script started on Wed 06 Oct 2021 06:18:59 PM PDT
+]0;mckin062@empress:~/HW/llist1[?1034h[mckin062@empress llist1]$ g++ HW3P1client.cpp llist.cpp
+]0;mckin062@empress:~/HW/llist1[mckin062@empress llist1]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+... in llist constructor...
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3 adding 1 2 3 4
+Step 4
+[ 1 2 3 4 ]
+Step 5 deleteFront twice
+Removed: 1
+Removed: 2
+Step 6
+[ 3 4 ]
+Step 7
+It is not empty
+Step 8 deleteRear twice
+Removed: 4
+[ 3 ]
+Removed: 3
+Step 9
+It is empty
+Step 10
+Step 11
+[ 5 6 8 9 ]
+Step 12 deleteRear all
+Removed: 9
+Removed: 8
+Removed: 6
+Removed: 5
+Step 13
+[ empty ]
+.... in llist destructor...
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;mckin062@empress:~/HW/llist1[mckin062@empress llist1]$ exit
+exit
+
+Script done on Wed 06 Oct 2021 06:19:23 PM PDT

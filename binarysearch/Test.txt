@@ -1,0 +1,51 @@
+Script started on Wed 22 Sep 2021 06:37:16 PM PDT
+]0;mckin062@empress:~/HW/binarysearch[?1034h[mckin062@empress binarysearch]$ g++ binsearch.cpp
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 1
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Found it in position 1
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 19
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Found it in position 10
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 5
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+Found it in position 3
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 17
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Found it in position 9
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 21
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+comparing against an element in slot 9
+Element not found
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 0
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 0
+Element not found
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ ./a.out
+What do you want to look for? 6
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+comparing against an element in slot 3
+Element not found
+]0;mckin062@empress:~/HW/binarysearch[mckin062@empress binarysearch]$ exit
+exit
+
+Script done on Wed 22 Sep 2021 06:38:05 PM PDT

@@ -1,0 +1,75 @@
+Script started on Sat 02 Oct 2021 11:35:41 PM PDT
+]0;mckin062@empress:~/HW/sort[?1034h[mckin062@empress sort]$ g++ partition.cpp
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ ./a.out
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+7
+5
+6
+4
+2
+3
+Ok the pivot is 1
+Swapping 1 and 1
+Results...
+1|756423
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+Swapping 8 and 1
+Results...
+1765432|8
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+3
+6
+7
+8
+2
+Ok the pivot is 5
+Swapping 5 and 2
+Results...
+2143|6785
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ ./a.out
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+Swapping 4 and 2
+Results...
+231|475
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ ./a.out
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+Swapping 2 and 1
+Results...
+1|6427
+]0;mckin062@empress:~/HW/sort[mckin062@empress sort]$ exit
+exit
+
+Script done on Sat 02 Oct 2021 11:37:43 PM PDT

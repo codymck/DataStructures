@@ -1,0 +1,265 @@
+Script started on Tue 07 Sep 2021 08:21:16 PM PDT
+]0;mckin062@empress:~/HW/stack[?1034h[mckin062@empress stack]$ g++ stack.cpp client1.cpp
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 34+
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+Result: 7
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 345+*
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+5
+4
+3
+--------------
+STACK:---------
+9
+3
+--------------
+STACK:---------
+27
+--------------
+Result: 27
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 722+-
+STACK:---------
+7
+--------------
+STACK:---------
+2
+7
+--------------
+STACK:---------
+2
+2
+7
+--------------
+STACK:---------
+4
+7
+--------------
+STACK:---------
+3
+--------------
+Result: 3
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 34+56++
+STACK:---------
+3
+--------------
+STACK:---------
+4
+3
+--------------
+STACK:---------
+7
+--------------
+STACK:---------
+5
+7
+--------------
+STACK:---------
+6
+5
+7
+--------------
+STACK:---------
+11
+7
+--------------
+STACK:---------
+18
+--------------
+Result: 18
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 12+34*45+-+
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+4
+3
+3
+--------------
+STACK:---------
+12
+3
+--------------
+STACK:---------
+4
+12
+3
+--------------
+STACK:---------
+5
+4
+12
+3
+--------------
+STACK:---------
+9
+12
+3
+--------------
+STACK:---------
+3
+3
+--------------
+STACK:---------
+6
+--------------
+Result: 6
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 1234567891234
+STACK:---------
+1
+--------------
+STACK:---------
+2
+1
+--------------
+STACK:---------
+3
+2
+1
+--------------
+STACK:---------
+4
+3
+2
+1
+--------------
+STACK:---------
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+STACK:---------
+1
+9
+8
+7
+6
+5
+4
+3
+2
+1
+--------------
+ERROR: expression is too long! closing program!
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: +
+ERROR: too few operands/numbers! closing program!
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 3+
+STACK:---------
+3
+--------------
+ERROR: too few operands/numbers! closing program!
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 3#
+STACK:---------
+3
+--------------
+ERROR: invalid input! closing program!
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ ./a.out
+type a postfix expression: 2345+
+STACK:---------
+2
+--------------
+STACK:---------
+3
+2
+--------------
+STACK:---------
+4
+3
+2
+--------------
+STACK:---------
+5
+4
+3
+2
+--------------
+STACK:---------
+9
+3
+2
+--------------
+Result: 9
+STACK:---------
+3
+2
+--------------
+ERROR: incomplete expression! closing program!
+]0;mckin062@empress:~/HW/stack[mckin062@empress stack]$ exit
+exit
+
+Script done on Tue 07 Sep 2021 08:23:12 PM PDT

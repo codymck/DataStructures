@@ -1,0 +1,125 @@
+Script started on Sat 20 Nov 2021 02:38:05 PM PST
+]0;mckin062@empress:~/HW/depthfirstsearch[?1034h[mckin062@empress depthfirstsearch]$ g++ hw7client.cpp stack.cpp llist.cpp slist .cpp dgraph.cpp
+]0;mckin062@empress:~/HW/depthfirstsearch[mckin062@empress depthfirstsearch]$ ./a.out
+Enter a file name: table.txt
+** The number of edges is: 12
+   Out   Visit   Adjacency
+-------------------------------
+A   2	   0	 [ B F ]
+B   2	   0	 [ C G ]
+C   1	   0	 [ H ]
+D   0	   0	 [ empty ]
+E   0	   0	 [ empty ]
+F   2	   0	 [ I E ]
+G   0	   0	 [ empty ]
+H   2	   0	 [ G I ]
+I   3	   0	 [ A G E ]
+Removed 'A' from the stack.
+Visit 'A' as 1
+...pushing: [ B F ]
+CURRENT STACK:---------
+B
+F
+--------------
+Removed 'B' from the stack.
+Visit 'B' as 2
+...pushing: [ C G ]
+CURRENT STACK:---------
+C
+G
+F
+--------------
+Removed 'C' from the stack.
+Visit 'C' as 3
+...pushing: [ H ]
+CURRENT STACK:---------
+H
+G
+F
+--------------
+Removed 'H' from the stack.
+Visit 'H' as 4
+...pushing: [ G I ]
+CURRENT STACK:---------
+G
+I
+G
+F
+--------------
+Removed 'G' from the stack.
+Visit 'G' as 5
+Deadend reached - backup.
+CURRENT STACK:---------
+I
+G
+F
+--------------
+Removed 'I' from the stack.
+Visit 'I' as 6
+...pushing: [ A G E ]
+CURRENT STACK:---------
+A
+G
+E
+G
+F
+--------------
+Removed 'A' from the stack.
+'A' had been visited already - backup.
+CURRENT STACK:---------
+G
+E
+G
+F
+--------------
+Removed 'G' from the stack.
+'G' had been visited already - backup.
+CURRENT STACK:---------
+E
+G
+F
+--------------
+Removed 'E' from the stack.
+Visit 'E' as 7
+Deadend reached - backup.
+CURRENT STACK:---------
+G
+F
+--------------
+Removed 'G' from the stack.
+'G' had been visited already - backup.
+CURRENT STACK:---------
+F
+--------------
+Removed 'F' from the stack.
+Visit 'F' as 8
+...pushing: [ I E ]
+CURRENT STACK:---------
+I
+E
+--------------
+Removed 'I' from the stack.
+'I' had been visited already - backup.
+CURRENT STACK:---------
+E
+--------------
+Removed 'E' from the stack.
+'E' had been visited already - backup.
+CURRENT STACK:---------
+[ empty ]
+--------------
+   Out   Visit   Adjacency
+-------------------------------
+A   2	   1	 [ B F ]
+B   2	   2	 [ C G ]
+C   1	   3	 [ H ]
+D   0	   0	 [ empty ]
+E   0	   7	 [ empty ]
+F   2	   8	 [ I E ]
+G   0	   5	 [ empty ]
+H   2	   4	 [ G I ]
+I   3	   6	 [ A G E ]
+]0;mckin062@empress:~/HW/depthfirstsearch[mckin062@empress depthfirstsearch]$ exit
+exit
+
+Script done on Sat 20 Nov 2021 02:38:34 PM PST
